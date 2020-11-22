@@ -167,7 +167,7 @@ def detect():
 	capture = cv2.VideoCapture(0)
 
 	detect = dlib.get_frontal_face_detector()
-	predict = dlib.shape_predictor(r"file dependencies/shape_predictor_68_face_landmarks.dat")
+	predict = dlib.shape_predictor(r"file dependencies/face_landmarks.dat")
 	c = 0
 	alarm = 0
 	placeHolder2 = st.empty()
